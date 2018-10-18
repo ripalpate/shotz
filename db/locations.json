@@ -1,0 +1,34 @@
+{
+    "locations":[
+        {  "locationImage": "",
+           "Name": "Starbucks",
+           "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+           "shootTime": "Morning"
+        },
+        {  "locationImage": "",
+            "Name": "Starbucks",
+            "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+            "shootTime": "Morning"
+         },
+         {  "locationImage": "",
+            "Name": "Starbucks",
+            "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+            "shootTime": "Evening"
+         },
+         {  "locationImage": "",
+            "Name": "Starbucks",
+            "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+            "shootTime": "After Dark"
+         },
+         {  "locationImage": "",
+            "Name": "Starbucks",
+            "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+            "shootTime": "Afternoon"
+         },
+         {  "locationImage": "",
+            "Name": "Starbucks",
+            "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+            "shootTime": "Afternoon"
+         }
+    ]
+}
