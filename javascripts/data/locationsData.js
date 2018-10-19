@@ -1,6 +1,8 @@
+import { locationsBuilder } from "../components/locationComponent.js";
+
 $.get('../db/locations.json')
  .done((data)=>{
-     console.log(data);
+     locationsBuilder(data.locations)
  })
  .fail((error)=>{
      console.error(error);
