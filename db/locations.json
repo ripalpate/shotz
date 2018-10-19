@@ -1,0 +1,34 @@
+{
+    "locations":[
+        {  "locationImage": "https://media-cdn.tripadvisor.com/media/photo-s/11/4b/78/dc/cross-the-brooklyn-bridge.jpg",
+           "Name": "Brooklyn Bridge",
+           "locationAddress": "Brooklyn Bridge, New York, NY 10038",
+           "shootTime": "Morning"
+        },
+        {  "locationImage": "https://www.nydailynews.com/resizer/cv9j_eQ2JsEvga2ptoMjznoJ-sE=/1400x0/www.trbimg.com/img-5bc8bce0/turbine/ny-1539882191-klqdm2op5t-snap-image",
+            "Name": "Central Park",
+            "locationAddress": "110th Street, Manhattan, NY",
+            "shootTime": "After Dark"
+         },
+         {  "locationImage": "http://www.stoplookcapture.com/wp-content/uploads/2013/05/Cold-Stone-Creamery1.jpg",
+            "Name": "ColdStone Creamary",
+            "locationAddress": "241 W 42nd St, New York, NY 10036",
+            "shootTime": "Evening"
+        },
+         {  "locationImage": "https://www.wallsauce.com/uploads/wallsauce-com/images/product-rooms/19420/2_9_0.jpg",
+            "Name": "Grand Central Station",
+            "locationAddress": "89 E 42nd St, New York, NY 10017",
+            "shootTime": "Morning"
+         },
+         {  "locationImage": "https://img-aws.ehowcdn.com/560x560p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/d371fb3fb26e4d3899e2a8c2ac7eccc4",
+            "Name": "Statue of Liberty",
+            "locationAddress": "New York, NY 10004",
+            "shootTime": "Afternoon"
+         },
+         {  "locationImage": "https://ephemeralnewyork.files.wordpress.com/2014/10/crotonfountain2014.jpg",
+            "Name": "Union Square",
+            "locationAddress": "E 16th St,New York, NY 10003",
+            "shootTime": "Afternoon"
+         }
+    ]
+}
