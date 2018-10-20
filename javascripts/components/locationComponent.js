@@ -8,7 +8,7 @@ const locationsBuilder = (arrayOfLocations)=>{
                             <h5 class="card-title">${location.name}</h5>
                             <p class="card-text">Address: ${location.locationAddress}</p>
                         </div>
-                        <div class="card-body ">
+                        <div class="card-body shoot-time">
                             <h6>Shoot Time: ${location.shootTime}</h6>
                         </div>
                     </div>`;
