@@ -1,3 +1,14 @@
 body{
     background-color: lightblue;
 }
+.header {
+    font-size: 3em;
+    font-family: 'Merienda', cursive;
+}
+.movie-heading {
+    font-family: 'Rancho', cursive;
+    font-size:2em;
+}
+.card-body{
+    font-family: 'Cormorant Garamond', serif;
+}
