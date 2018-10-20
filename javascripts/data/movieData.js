@@ -1,4 +1,6 @@
 import {movieBuilder} from "../components/movieComponent.js";
+
+const displayMovie = () =>{
 $.get('../db/movie.json')
     .done((data)=>{
         movieBuilder(data.movie);
@@ -6,3 +8,6 @@ $.get('../db/movie.json')
     .fail((error)=>{
         console.log(error);
     });
+}
+
+export{displayMovie};

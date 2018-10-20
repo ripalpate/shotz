@@ -1,3 +1,4 @@
+const searchBar = ()=>{
 $("#search").keyup(()=>{
     $(".card-content").each(function(){
         let val = $("#search").val().toLowerCase();
@@ -8,8 +9,9 @@ $("#search").keyup(()=>{
           }
       });
   });
+}
 
-  
+const buttonElem = ()=>{
 $(".time").on('click', (e)=>{
     const element= $(event.target).text().toLowerCase();
     $(".shoot-time").each(function(){
@@ -20,8 +22,10 @@ $(".time").on('click', (e)=>{
           }
       });
     })
-
+}
 
 $("#all").on('click', (e)=>{
     $('.loc').show();
 })
+
+export{searchBar, buttonElem};
