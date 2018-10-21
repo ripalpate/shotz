@@ -4,23 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Movie Shotz</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Diplomata|KoHo|Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Diplomata|KoHo|Merienda|Rancho" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
-<h1>Movie Location Shotz</h1>
 <body>
-    <div id="movie"></div>
-    <div class="">
-        <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search">
+    <h1 class="text-center m-3 header">&#127916;   Movie Shotz Locations   &#127916;</h1>
+    <div id="movie" class="d-flex justify-content-center m-4"></div>
+    
+    <div class="row  m-4 col-md-12">
+        <div class="col-md-8">
+            <button type="button" class="btn btn-primary m-2" id="all">Show All</button>
+            <button type="button" class="btn btn-secondary m-2 time" id="morning">Morning</button>
+            <button type="button" class="btn btn-success m-2 time" id="afternoon">Afternoon</button>
+            <button type="button" class="btn btn-info m-2 time" id="evening">Evening</button>
+            <button type="button" class="btn btn-dark m-2 time" id="after-dark">After Dark</button>
+        </div>
+        <div class="col-md-4">
+            <input id="search" class="form-control mr-sm-2" type="search" placeholder=" &#128269 Search">
+        </div>
     </div>
-    <div>
-        <button type="button" class="btn btn-secondary m-2" id="all">All</button>
-        <button type="button" class="btn btn-secondary m-2 time" id="morning">Morning</button>
-        <button type="button" class="btn btn-success m-2 time" id="afternoon">Afternoon</button>
-        <button type="button" class="btn btn-info m-2 time" id="evening">Evening</button>
-        <button type="button" class="btn btn-warning m-2 time" id="after-dark">After Dark</button>
-    </div>
-    <div id="locations" class="d-flex justify-content-center .flex-column flex-wrap"></div>
+    <div id="locations" class="d-flex justify-content-center .flex-column flex-wrap m-4"></div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

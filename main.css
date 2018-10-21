@@ -1,3 +1,17 @@
 body{
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-image: url('http://d2foa7ei5ukpvz.cloudfront.net/wp-content/uploads/2016/11/09111153/IMG_0243.jpg');
+    background-size:cover; 
+}
+.header {
+    font-size: 3em;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+.movie-heading {
+    font-family: 'Rancho', cursive;
+    font-size:2em;
+}
+.card-body{
+    font-family: 'Cormorant Garamond', serif;
 }

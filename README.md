@@ -3,7 +3,7 @@ I want to keep track of all the shooting locations for my soon to be oscar winni
 
 ## Screenshots
 1. Initial Page
-![main screen shot](./screenshots/)
+![main screen shot](./screenshot/shotz-2.png)
 
 ## How to run this project
 * Use npm to install http-server in your terminal:
