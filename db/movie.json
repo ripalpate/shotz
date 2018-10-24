@@ -1,8 +1,11 @@
 {
     "movie" : [
-        {"name": "Wonder Despicable",
+        {    
+         "id": "movie1",
+         "name": "Wonder Despicable",
          "genre": "Comedy",
          "releaseDate": "October 20, 2019",
-         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life." }
+         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life." 
+        }
     ]
 }
