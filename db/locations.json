@@ -41,6 +41,49 @@
             "name": "Union Square",
             "locationAddress": "E 16th St,New York, NY 10003",
             "shootTime": "Afternoon"
+         },
+         {  
+            "id":"location7",
+            "locationImage": "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/france/paris/eiffel-tower-paris-p.jpg?imwidth=480",
+            "name": "Eiffel Tower",
+            "locationAddress": "5 Avenue Anatole France, 75007 Paris, France",
+            "shootTime": "Evening"
+         },
+         {  
+            "id":"location8",
+            "locationImage": "https://cdn.vox-cdn.com/thumbor/x2n-6hnTdxh7uZhO0iL4pii366U=/0x0:1024x768/1200x800/filters:focal(431x303:593x465)/cdn.vox-cdn.com/uploads/chorus_image/image/55512211/terminal5.0.0.jpg",
+            "name": "JFK Airport",
+            "locationAddress": "John F. Kennedy International Airport, Queens, NY 11430",
+            "shootTime": "After Dark"
+         },
+         {  
+            "id":"location9",
+            "locationImage": "https://i.ytimg.com/vi/XleuZCtWIhM/maxresdefault.jpg",
+            "name": "Manhattan Mall",
+            "locationAddress": "100 West 33rd Street, New York, NY 10001",
+            "shootTime": "Morning"
+         },
+         {  
+            "id":"location10",
+            "locationImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/P1010244_Paris_Ier_Rue_de_Rivoli_reductwk.JPG",
+            "name": "Rue de Rivoli",
+            "locationAddress": "4th arrondissement, 75013 Paris, France",
+            "shootTime": "Afternoon"
+         },
+         {  
+            "id":"location11",
+            "locationImage": "http://idata.over-blog.com/1/90/21/17//CafeParis.jpg",
+            "name": "cafe de paris france",
+            "locationAddress": "172 Boulevard Saint-Germain, 75006 Paris, France",
+            "shootTime": "Morning"
+         },
+         {  
+            "id":"location12",
+            "locationImage": "https://media-cdn.tripadvisor.com/media/photo-s/06/da/69/e4/starbucks.jpg",
+            "name": "Starbucks",
+            "locationAddress": "195 Broadway, New York, NY 10007",
+            "shootTime": "Morning"
          }
+         
     ]
 }

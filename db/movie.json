@@ -5,7 +5,32 @@
          "name": "Wonder Despicable",
          "genre": "Comedy",
          "releaseDate": "October 20, 2019",
-         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life." 
+         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life.", 
+         "locations": ["location1", "location3", "location4", "location5", "location6", "location9"]
+        },
+        {
+         "id": "movie2",
+         "name": "Super Secret Movie",
+         "genre": "Action",
+         "releaseDate": "10/15/2020",
+         "description": "super exclusive can't tell you",
+         "locations": ["location1", "location2", "location3", "location4", "location5"]
+        },
+        {
+         "id": "movie3",
+         "name": "Christmas time Despicable",
+         "genre": "Comedy",
+         "releaseDate": "July 25, 2019",
+         "description": "super exclusive can't tell you",
+         "locations": ["location5", "location6", "location7", "location9"]
+        },
+        {
+         "id": "movie4",
+         "name": "Love in Paris",
+         "genre": "Romantic",
+         "releaseDate": "September 13, 2020",
+         "description": "super exclusive can't tell you",
+         "locations": ["location7", "location8", "location10", "location11", "location12"]
         }
     ]
 }
