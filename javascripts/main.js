@@ -1,11 +1,11 @@
 import { searchBar, buttonElem } from "./events.js";
-import { displayMovie } from "./data/movieData.js";
-import { displayLocations } from "./data/locationsData.js";
+import { initialMovieView } from "./components/movieComponent.js";
+import { initialLocationView } from "./components/locationComponent.js";
 
 const initializeApp = ()=>{
-    displayMovie();
-    displayLocations();
-    searchBar();
-    buttonElem();
+    initialMovieView();
+    initialLocationView();
+     searchBar();
+     buttonElem();
 }
 initializeApp();

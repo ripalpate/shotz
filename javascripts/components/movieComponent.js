@@ -1,7 +1,8 @@
+import {displayMovies} from '../data/movieData.js';
 
-const movieBuilder = (arrayOfMovie)=>{
+const movieBuilder = (arrayOfMovies)=>{
     let domString = '';
-    arrayOfMovie.forEach((movie) => {   
+    arrayOfMovies.forEach((movie) => {   
         domString += `<div class="card bg-light mb-3 w-75">
                         <div class="card-header text-center movie-heading">${movie.name}</div>
                         <div class="card-body">
@@ -14,4 +15,12 @@ const movieBuilder = (arrayOfMovie)=>{
     $('#movie').append(domString);
 }
 
-export {movieBuilder};
+const initialMovieView = () => {
+    displayMovies().then((movies)=>{
+        movieBuilder(movies);
+    }).catch((error)=>{
+        console.error(error);
+    });
+}
+
+export {movieBuilder, initialMovieView};
