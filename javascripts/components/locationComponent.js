@@ -1,3 +1,4 @@
+import {displayLocations} from '../data/locationsData.js';
 
 const locationsBuilder = (arrayOfLocations)=>{
     let domString = '';
@@ -16,4 +17,25 @@ const locationsBuilder = (arrayOfLocations)=>{
     $('#locations').append(domString);
 }
 
-export {locationsBuilder};
+const initialLocationView = ()=>{
+    displayLocations().then((locations)=>{
+        locationsBuilder(locations);
+    }).catch((error) => {
+        console.error(error)
+    });
+}
+
+
+export {locationsBuilder, initialLocationView};
+
+// const initialPinView = (boardID)=> {
+//     // console.log('pins page', boardID);
+//     loadPinsForBoard(boardID)
+//     .then(data => {
+//         writePins(data);
+//         bindEvents();
+//     })
+//     .catch(error => {
+//         console.error('things messed up in pins', error);
+//     });
+// }
