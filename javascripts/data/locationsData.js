@@ -12,5 +12,4 @@ const displayLocations = ()=>{
     })
 }
 
-
 export {displayLocations};

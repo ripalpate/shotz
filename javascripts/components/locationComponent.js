@@ -17,6 +17,7 @@ const locationsBuilder = (arrayOfLocations)=>{
     $('#locations').append(domString);
 }
 
+
 const initialLocationView = ()=>{
     displayLocations().then((locations)=>{
         locationsBuilder(locations);
