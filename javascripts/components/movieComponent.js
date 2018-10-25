@@ -1,5 +1,5 @@
-import {displayMovies} from '../data/movieData.js';
-import {newMovies} from '../data/movieData.js';
+import {displayMovies, locationsArrayForMovies} from '../data/movieData.js';
+// import {newMovies} from '../data/movieData.js';
 
 const movieBuilder = (arrayOfMovies)=>{
     let domString = '';
@@ -19,18 +19,20 @@ const movieBuilder = (arrayOfMovies)=>{
 const bindEvents = ()=>{
     $('#movie').on('click', '.movie', (e)=> {
         const clickedMovie = $(e.target).closest('.movie').attr('id');
-        console.log(clickedMovie);
-        z(clickedMovie);
+        // console.log(clickedMovie);
+        // z(clickedMovie);
+        loadLocationsforMovie(clickedMovie);
     })
 }
 
 
-const z=(movieID)=>{
-        for (let i = 0; i < newMovies.length; i++) {
-            if(newMovies[i].id===movieID){
-                console.log(newMovies[i].locations);
-            }  
-                }}
+
+// const z=(movieID)=>{
+//         for (let i = 0; i < newMovies.length; i++) {
+//             if(newMovies[i].id===movieID){
+//                 console.log(newMovies[i].locations);
+//             }  
+//                 }}
 
 const initialMovieView = () => {
     displayMovies().then((movies)=>{
@@ -41,4 +43,8 @@ const initialMovieView = () => {
     });
 }
 
+const loadLocationsforMovie = (movieID) => {
+    console.log('moviePage', movieID);
+    locationsArrayForMovies(movieID)
+}
 export {movieBuilder, initialMovieView};
