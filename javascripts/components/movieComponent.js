@@ -1,7 +1,7 @@
 import {displayMovies, locationsArrayForMovies} from '../data/movieData.js';
-// import {newMovies} from '../data/movieData.js';
 import {loadLocations} from '../data/locationsData.js';
 import{locationsBuilder} from '../components/locationComponent.js';
+import { bindEvents } from '../events.js';
 
 
 const movieBuilder = (arrayOfMovies)=>{
@@ -17,14 +17,6 @@ const movieBuilder = (arrayOfMovies)=>{
                     </div>`;
                 });
     $('#movie').append(domString);
-}
-
-const bindEvents = ()=>{
-    $('#movie').on('click', '.movie', (e)=> {
-        const clickedMovie = $(e.target).closest('.movie').attr('id');
-        loadClickedMovie(clickedMovie);
-        loadLocationsforMovie(clickedMovie);
-    })
 }
 
 
@@ -43,33 +35,22 @@ const loadClickedMovie = (movieID) => {
         $("#movie").empty();
         const newClickedMovie = movies.filter(movie=>movie.id===movieID);
         movieBuilder(newClickedMovie);      
+        }).catch((error)=>{
+            console.error(error);
         });
 }
 
 const loadLocationsforMovie = (movieID) => {
     
     locationsArrayForMovies(movieID)
-
         .then((movieLocations)=>{
            return loadLocations(movieLocations)
-           
-
             .then((locationSubset)=>{
                 $("#locations").empty();
                 return locationsBuilder(locationSubset);
-
-            //     displayMovies()
-
-            //     .then((movies)=>{
-            //         $("#movie").empty();
-            //         const newClickedMovie = movies.filter(movie=>movie.id===movieID);
-            //         movieBuilder(newClickedMovie);
-                
-            // });
-
+        }).catch((error)=>{
+            console.error(error);
         });
-
-
     })
 }
-export {movieBuilder, initialMovieView};
+export {movieBuilder, initialMovieView, loadClickedMovie, loadLocationsforMovie};

@@ -5,7 +5,7 @@ import { initialLocationView } from "./components/locationComponent.js";
 const initializeApp = ()=>{
     initialMovieView();
     initialLocationView();
-     searchBar();
-     buttonElem();
+    searchBar();
+    buttonElem();
 }
 initializeApp();

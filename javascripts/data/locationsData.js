@@ -17,14 +17,11 @@ const loadLocations = (movieLocations) => {
         $.get('../db/locations.json')
             .done((data)=>{
                 let locationsData = data.locations;
-                
                 let locationSubset = [];
-            
                 movieLocations.forEach(function(movieLocation) {
-                    
-                    const x=locationsData.find(location=>location.id===movieLocation);
-                    locationSubset.push(x);
-                                       
+                    // returns the object of location
+                    const locationFilter=locationsData.find(location=>location.id===movieLocation);
+                    locationSubset.push(locationFilter);                  
                 });
                 resolve(locationSubset);
             })
@@ -33,5 +30,4 @@ const loadLocations = (movieLocations) => {
             })
     })
 }
-// loadLocations(movieLocations);
 export {displayLocations, loadLocations};

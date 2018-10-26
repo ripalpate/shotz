@@ -1,4 +1,3 @@
-let newMovies = [];
 
 const displayMovies = () =>{
     return new Promise ((resolve,reject)=>{
@@ -6,7 +5,6 @@ const displayMovies = () =>{
             .done((data)=>{
                 // data returns the whole json file
                 // returns Array of movies object
-                // newMovies= data.movies;
                 resolve(data.movies); 
             })
             .fail((error)=>{
@@ -14,8 +12,6 @@ const displayMovies = () =>{
             })
     })
 }
-
-
 
 const locationsArrayForMovies = (movieID) => {
     return new Promise((resolve, reject)=>{
