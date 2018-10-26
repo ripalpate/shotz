@@ -17,7 +17,6 @@ const locationsBuilder = (arrayOfLocations)=>{
     $('#locations').append(domString);
 }
 
-
 const initialLocationView = ()=>{
     displayLocations().then((locations)=>{
         locationsBuilder(locations);
@@ -26,17 +25,5 @@ const initialLocationView = ()=>{
     });
 }
 
-
 export {locationsBuilder, initialLocationView};
 
-// const initialPinView = (boardID)=> {
-//     // console.log('pins page', boardID);
-//     loadPinsForBoard(boardID)
-//     .then(data => {
-//         writePins(data);
-//         bindEvents();
-//     })
-//     .catch(error => {
-//         console.error('things messed up in pins', error);
-//     });
-// }
