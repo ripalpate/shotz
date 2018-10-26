@@ -3,7 +3,7 @@ import {displayLocations} from '../data/locationsData.js';
 const locationsBuilder = (arrayOfLocations)=>{
     let domString = '';
     arrayOfLocations.forEach((location) => {   
-        domString += `<div id="loc" class="card loc p-2 m-3" style="width: 18rem;">
+        domString += `<div id="${location.id}" class="card loc p-2 m-3" style="width: 18rem;">
                         <img class="card-img-top" src="${location.locationImage}" alt="Card image cap" width="250px" height="250px">
                         <div class="card-body card-content">
                             <h5 class="card-title"><strong>${location.name}</strong></h5>
