@@ -23,7 +23,7 @@ const movieBuilder = (arrayOfMovies)=>{
 const initialMovieView = () => {
     displayMovies().then((movies)=>{
         movieBuilder(movies);
-        bindEvents();
+        // bindEvents();
     }).catch((error)=>{
         console.error(error);
     });
@@ -41,7 +41,6 @@ const loadClickedMovie = (movieID) => {
 }
 
 const loadLocationsforMovie = (movieID) => {
-    
     locationsArrayForMovies(movieID)
         .then((movieLocations)=>{
            return loadLocations(movieLocations)
