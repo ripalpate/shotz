@@ -13,6 +13,7 @@ const movieBuilder = (arrayOfMovies)=>{
                             <p class="card-text"><strong>Summary:</strong> ${movie.description}</p>
                             <h6 class="card-title"><strong>Genre:</strong> ${movie.genre}</h6>
                             <h6 class="card-title"><strong>Release Date:</strong> ${movie.releaseDate}</h6>
+                            <p class="card-text"><strong>Shoots Locations: </strong>${movie.locations.length}</p>
                         </div>
                     </div>`;
                 });
