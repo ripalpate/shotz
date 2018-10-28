@@ -10,7 +10,6 @@ const locationsBuilder = (arrayOfLocations)=>{
                             <h5 class="card-title"><strong>${location.name}</strong></h5>
                             <p class="card-text"><strong>Address:</strong> ${location.locationAddress}</p>
                             <p class="card-text"><strong> Movies Being Shoot: </strong>${location.movies.length}</p>
-                            <p class="card-text"><strong> Movies Name: </strong>${location.movies.name}</p>
                         </div>
                         <div class="card-body shoot-time">
                             <h6><strong>Shoot Time:</strong> ${location.shootTime}</h6>
