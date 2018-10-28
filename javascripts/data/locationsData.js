@@ -18,7 +18,7 @@ const loadLocations = (movieLocations) => {
             .done((data)=>{
                 let locationsData = data.locations;
                 let locationSubset = [];
-                movieLocations.forEach(function(movieLocation) {
+                movieLocations.forEach((movieLocation)=> {
                     // returns the object of location
                     const locationFilter=locationsData.find(location=>location.id===movieLocation);
                     locationSubset.push(locationFilter);                  
@@ -30,4 +30,5 @@ const loadLocations = (movieLocations) => {
             })
     })
 }
+
 export {displayLocations, loadLocations};

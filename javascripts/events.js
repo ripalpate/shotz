@@ -1,6 +1,7 @@
 import {loadClickedMovie, loadLocationsforMovie} from '../javascripts/components/movieComponent.js';
 import { initialMovieView} from '../javascripts/components/movieComponent.js';
 import {initialLocationView} from '../javascripts/components/locationComponent.js';
+
 const searchBar = ()=>{
 $("#search").keyup(()=>{
     $(".card-content").each(function(){
@@ -35,7 +36,7 @@ const bindEvents = ()=>{
     $('#movie').on('click', '.movie', (e)=> {
         const clickedMovie = $(e.target).closest('.movie').attr('id');
         $('.back-button').show();
-        backButtonEvent();
+        // backButtonEvent();
         loadClickedMovie(clickedMovie);
         loadLocationsforMovie(clickedMovie);
 
@@ -53,4 +54,4 @@ const backButtonEvent = () => {
     })
 }
 
-export{searchBar, buttonElem, bindEvents};
+export{searchBar, buttonElem, bindEvents, backButtonEvent};
