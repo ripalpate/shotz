@@ -1,5 +1,4 @@
-
-
+// function to get locations array of object
 const displayLocations = ()=>{
     return new Promise ((resolve,reject)=>{
         $.get('../db/locations.json')
@@ -12,6 +11,7 @@ const displayLocations = ()=>{
     })
 }
 
+// function to match locatation id with array of locations from movie Json file
 const loadLocations = (movieLocations) => {
     return new Promise((resolve, reject)=>{
         $.get('../db/locations.json')
@@ -31,4 +31,18 @@ const loadLocations = (movieLocations) => {
     })
 }
 
-export {displayLocations, loadLocations};
+// function to display number of movies being shoot at each locations.
+const moviesArrayForLocations = ()=>{
+        $.get('../db/locations.json')
+            .done((data)=>{
+                let locationData = data.locations;
+                for(let i = 0; i < locationData.length; i++) {
+                   let moviesArray= locationData[i].movies;
+                    return moviesArray;
+                    }
+        })
+}
+
+
+
+export {displayLocations, loadLocations,moviesArrayForLocations};

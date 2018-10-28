@@ -1,4 +1,4 @@
-
+// promise to set array of movies object
 const displayMovies = () =>{
     return new Promise ((resolve,reject)=>{
         $.get('../db/movie.json')
@@ -13,6 +13,7 @@ const displayMovies = () =>{
     })
 }
 
+// function to grab locations array from movie object.
 const locationsArrayForMovies = (movieID) => {
     return new Promise((resolve, reject)=>{
         $.get('../db/movie.json')
@@ -21,7 +22,6 @@ const locationsArrayForMovies = (movieID) => {
                 for (let i = 0; i < movieData.length; i++) {
                     if(movieData[i].id===movieID){
                       let movieLocations = movieData[i].locations;
-                        console.log(movieLocations);
                         resolve(movieLocations);
                     } 
                 }

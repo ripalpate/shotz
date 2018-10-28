@@ -5,31 +5,31 @@
          "name": "Wonder Despicable",
          "genre": "Comedy",
          "releaseDate": "October 20, 2019",
-         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life.", 
+         "description":"Minions are in the search of villian and they end up in Newyork City. They turn around the whole city and bring more minion madness. Edith is all grown up and finds her love of life. She keeps that as secret from Gru and Gru came to find out. He starts spying on herboyfriend. Will Gru be able to accept him and allow Edith to marry her?", 
          "locations": ["location1", "location3", "location4", "location5", "location6", "location9"]
         },
         {
          "id": "movie2",
          "name": "Super Secret Movie",
-         "genre": "Action",
-         "releaseDate": "10/15/2020",
-         "description": "super exclusive can't tell you",
+         "genre": "drama",
+         "releaseDate": "November 15, 2019",
+         "description": "This movie is about fighting over people thinking on women power. A family is having daughter and they have to face issues in the society for having daughter. Her dad teach her to be strong and powerful. The girl faces lot of challenges in her life and will she be able to overcame and prove that gender doesn't matter and show what woman can do?",
          "locations": ["location1", "location2", "location3", "location4", "location5"]
         },
         {
          "id": "movie3",
-         "name": "Christmas time Despicable",
-         "genre": "Comedy",
+         "name": "Adopted: Christmas time",
+         "genre": "Family",
          "releaseDate": "July 25, 2019",
-         "description": "super exclusive can't tell you",
-         "locations": ["location5", "location6", "location7", "location9"]
+         "description": "A couple have been trying for baby and end up finding a baby from the street and they adopt the baby. Their family is in against of adoption and couple has to fight and make them understand. Ontop, adopted baby is from different race and christmas time is coming closer. Will the family be together for christmas time due to adoption?",
+         "locations": ["location5", "location6", "location2", "location9"]
         },
         {
          "id": "movie4",
          "name": "Love in Paris",
          "genre": "Romantic",
          "releaseDate": "September 13, 2020",
-         "description": "super exclusive can't tell you",
+         "description": "Two complete strangers, after having met on tour to Paris, end up spending the evening together in the romantic city. Actress, being the strong-headed independent girl, moves on, while Actor ends up falling for the girl he spent the evening with. They cross paths once again in Paris but will there be love In Paris?",
          "locations": ["location7", "location8", "location10", "location11", "location12"]
         }
     ]

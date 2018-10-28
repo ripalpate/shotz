@@ -1,13 +1,12 @@
 import {displayMovies, locationsArrayForMovies} from '../data/movieData.js';
 import {loadLocations} from '../data/locationsData.js';
 import{locationsBuilder} from '../components/locationComponent.js';
-import { bindEvents } from '../events.js';
 
-
+// function to dynamically display movies
 const movieBuilder = (arrayOfMovies)=>{
     let domString = '';
     arrayOfMovies.forEach((movie) => {   
-        domString += `<div id='${movie.id}' class="movie card bg-light mb-3 w-75">
+        domString += `<div id='${movie.id}' class="movie card bg-light ml-2 mr-2 mb-3 w-75">
                         <div class="card-header text-center movie-heading">${movie.name}</div>
                         <div class="card-body">
                             <p class="card-text"><strong>Summary:</strong> ${movie.description}</p>
@@ -20,16 +19,16 @@ const movieBuilder = (arrayOfMovies)=>{
     $('#movie').append(domString);
 }
 
-
+// function to display all 4 movies on initial page load
 const initialMovieView = () => {
     displayMovies().then((movies)=>{
         movieBuilder(movies);
-        // bindEvents();
     }).catch((error)=>{
         console.error(error);
     });
 }
 
+// function to display clicked movie on click
 const loadClickedMovie = (movieID) => {
     $(".nav-buttons").hide();
     displayMovies().then((movies)=>{
@@ -41,6 +40,7 @@ const loadClickedMovie = (movieID) => {
         });
 }
 
+// function to load locations associated with the clicked movie
 const loadLocationsforMovie = (movieID) => {
     locationsArrayForMovies(movieID)
         .then((movieLocations)=>{
