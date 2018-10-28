@@ -5,84 +5,96 @@
            "locationImage": "https://media-cdn.tripadvisor.com/media/photo-s/11/4b/78/dc/cross-the-brooklyn-bridge.jpg",
            "name": "Brooklyn Bridge",
            "locationAddress": "Brooklyn Bridge, New York, NY 10038",
-           "shootTime": "Morning"
+           "shootTime": "Morning",
+           "movies":["movie1", "movie2"]
         },
         {   
             "id":"location2",
             "locationImage": "https://www.nydailynews.com/resizer/cv9j_eQ2JsEvga2ptoMjznoJ-sE=/1400x0/www.trbimg.com/img-5bc8bce0/turbine/ny-1539882191-klqdm2op5t-snap-image",
             "name": "Central Park",
             "locationAddress": "110th Street, Manhattan, NY",
-            "shootTime": "After Dark"
+            "shootTime": "After Dark",
+            "movies":["movie2", "movie3"]
          },
          {  
             "id":"location3",
             "locationImage": "http://www.stoplookcapture.com/wp-content/uploads/2013/05/Cold-Stone-Creamery1.jpg",
             "name": "ColdStone Creamary",
             "locationAddress": "241 W 42nd St, New York, NY 10036",
-            "shootTime": "Evening"
+            "shootTime": "Evening",
+            "movies":["movie1", "movie2"]
         },
          {  
             "id":"location4",
             "locationImage": "https://www.wallsauce.com/uploads/wallsauce-com/images/product-rooms/19420/2_9_0.jpg",
             "name": "Grand Central Station",
             "locationAddress": "89 E 42nd St, New York, NY 10017",
-            "shootTime": "Morning"
+            "shootTime": "Morning",
+            "movies":["movie1", "movie2"]
          },
          {  
             "id":"location5",
             "locationImage": "https://img-aws.ehowcdn.com/560x560p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/d371fb3fb26e4d3899e2a8c2ac7eccc4",
             "name": "Statue of Liberty",
             "locationAddress": "1 Audrey Zapp Dr, New York, NY 10004",
-            "shootTime": "Afternoon"
+            "shootTime": "Afternoon",
+            "movies":["movie1", "movie2", "movie3"]
          },
          {  
             "id":"location6",
             "locationImage": "https://ephemeralnewyork.files.wordpress.com/2014/10/crotonfountain2014.jpg",
             "name": "Union Square",
             "locationAddress": "E 16th St,New York, NY 10003",
-            "shootTime": "Afternoon"
+            "shootTime": "Afternoon",
+            "movies":["movie1", "movie3"]
          },
          {  
             "id":"location7",
             "locationImage": "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/france/paris/eiffel-tower-paris-p.jpg?imwidth=480",
             "name": "Eiffel Tower",
             "locationAddress": "5 Avenue Anatole France, 75007 Paris, France",
-            "shootTime": "Evening"
+            "shootTime": "Evening",
+            "movies":["movie4"]
          },
          {  
             "id":"location8",
             "locationImage": "https://cdn.vox-cdn.com/thumbor/x2n-6hnTdxh7uZhO0iL4pii366U=/0x0:1024x768/1200x800/filters:focal(431x303:593x465)/cdn.vox-cdn.com/uploads/chorus_image/image/55512211/terminal5.0.0.jpg",
             "name": "JFK Airport",
             "locationAddress": "John F. Kennedy International Airport, Queens, NY 11430",
-            "shootTime": "After Dark"
+            "shootTime": "After Dark",
+            "movies":["movie4"]
          },
          {  
             "id":"location9",
             "locationImage": "https://i.ytimg.com/vi/XleuZCtWIhM/maxresdefault.jpg",
             "name": "Manhattan Mall",
             "locationAddress": "100 West 33rd Street, New York, NY 10001",
-            "shootTime": "Morning"
+            "shootTime": "Morning",
+            "movies":["movie1", "movie3"]
          },
          {  
             "id":"location10",
             "locationImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/P1010244_Paris_Ier_Rue_de_Rivoli_reductwk.JPG",
             "name": "Rue de Rivoli",
             "locationAddress": "4th arrondissement, 75013 Paris, France",
-            "shootTime": "Afternoon"
+            "shootTime": "Afternoon",
+            "movies":["movie4"]
          },
          {  
             "id":"location11",
             "locationImage": "http://idata.over-blog.com/1/90/21/17//CafeParis.jpg",
             "name": "cafe de paris france",
             "locationAddress": "172 Boulevard Saint-Germain, 75006 Paris, France",
-            "shootTime": "Morning"
+            "shootTime": "Morning",
+            "movies":["movie4"]
          },
          {  
             "id":"location12",
             "locationImage": "https://media-cdn.tripadvisor.com/media/photo-s/06/da/69/e4/starbucks.jpg",
             "name": "Starbucks",
             "locationAddress": "195 Broadway, New York, NY 10007",
-            "shootTime": "Morning"
+            "shootTime": "Morning",
+            "movies":["movie4"]
          }
          
     ]
